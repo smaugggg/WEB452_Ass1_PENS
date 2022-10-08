@@ -27,7 +27,10 @@ namespace WEB452_Ass1_PENS
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext<PenderMifflinContext>(options => options.UseSqlServer(Configuration.GetConnectionString("PenderMifflinContext")));
+            services.AddDbContext<PenderMifflinContext>(options => options.UseSqlServer(Configuration.GetConnectionString("WEB452_Ass1_PENSContext")));
+
+            services.AddDbContext<WEB452_Ass1_PENSContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("WEB452_Ass1_PENSContext")));
 
         }
 
