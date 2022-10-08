@@ -14,3 +14,6 @@
 2251 -  Company branding decided. Comitting.
 
 2329 -  App wasn't working the way I wanted it, so I restarted. Copied .txt files to new project. Recommit.
+2335 -  Created HelloWorldController to test that it works
+
+	20221008
