@@ -1,0 +1,53 @@
+﻿// Chantal Monette
+// W0800871
+// WEB452-22F	Andrew Steele
+	Assignment 1
+	Pens
+
+time to meme https://web.archive.org/web/20071027134601/http://www.dundermifflinpaper.biz/index.shtml
+
+
+Pen Company Name:	Pender Mifflin, Ink.
+	IDEAS: The PENitentiary
+		   Dragon's PEN
+		   Pender Mifflin*****
+		   Dunder MiffPen
+Company Address:	1725 Slough Ave
+					Scranton, Pennsylvania
+
+Mission Statement:	PenDER MIFFLIN, Ink. is committed to providing its customers quality pens and the experience required for making informed buyer decisions. 
+					We provide our Customers with the highest standard of integrity and quality, to enable them to develop long-term professional relationships with our employees and staff.
+					We crusade to create a stable working environment and corporate spirit and to give unlimited opportunity to women, and to afford ordinary folk the chance to buy the same things as rich people. 
+					We are also committed to nurturing and promulgating wholesome American values.
+					We strive to become the company most known for changing the worldwide poor–quality image of Chinese products.
+
+General Description:Pender Mifflin Inc. (stock symbol PMI) is a micro-cap regional pen supply distributor with an emphasis on servicing small-business clients. With a corporate office in New York City, Pender Mifflin
+					has branches in Buffalo, Albany, Utica, Scranton, Akron, Camden, Nashua and Yonkers.
+					Pender Mifflin Inc. provides its customers quality pens and pen products, pen values and the expertise required for making informed buying choices. We provide our products and services with a 
+					dedication to the highest degree of integrity and quality of customer satisfaction, developing long-term professional relationships with employees that develop pride, creating a stable working 
+					environment and company spirit.
+
+Employees:			Steve Carell		-- Director of Pen Distribution
+						"I became a salesman because of people. I love making friends. But then I was promoted to manager at a very young age. And I still try to be a friend first. But, you know... 
+						when you're very successful, your co-workers look at you differently."
+					Dwight Schrute IV	-- Pender Mifflin Head Salesmen
+						"Whenever I'm about to do something, I think 'Would an idiot do that?' And if they would, I do not do that thing."
+					Jim Halpent			-- Sales Representative
+						Skilled with photoshop. Loves ham and cheese. 
+					Asian Jim Halpent	-- Sales Representative
+						Skilled with photoshop. Loves ham and cheese.
+					Pen Beesly			-- Office Administrator
+						“Kinda sounds like prison is better than Pender Mifflin”
+					Kelly Kapen			-- Customer Service Representive
+						"Who am I? I’m Kelly Kapen, the business bitch."
+					Creed Bratton		-- Quality Assurance
+						“Nobody steals from Creed Bratton and gets away with it. The last person to do this disappeared. His name: Creed Bratton.”
+					Stanley Hudspen		-- Sales Repesentative
+						"It's like I used to tell my wife: I do not apologize unless I think I'm wrong, and if you don't like it, you can leave. I say the same thing to my current wife, and I'll say it to my next one too."
+
+
+Company Colours:
+	#2A3C5F
+	#EDEFE2
+	#737980
+	#4BA8B2
