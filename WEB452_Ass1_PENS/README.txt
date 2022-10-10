@@ -31,3 +31,7 @@
 0005 -  Checking if the search function works.
 0006 -  Search function works!
 		Committing to Github
+0051 -  Used the genre search tutorial in Step 7 (Add Search) to create a pen tip size search function
+0136 -  testing the pentipsize search function
+0137 -  It works! 
+		Committing to GitHub

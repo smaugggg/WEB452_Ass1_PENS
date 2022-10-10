@@ -1,4 +1,4 @@
-﻿@model IEnumerable<WEB452_Ass1_PENS.Models.Pen>
+﻿@model WEB452_Ass1_PENS.Models.PenTipViewModel
 
 @{
     ViewData["Title"] = "Index";
@@ -12,7 +12,11 @@
 
 <form asp-controller="Pens" asp-action="Index">
     <p>
-        Search: <input type="text" name="SearchString" formmethod="get" />
+        <select asp-for="PenTipSize" asp-items="Model.Tips">
+            <option value="">All</option>
+        </select>
+
+        Name: <input type="text" name="SearchString" />
         <input type="submit" value="Filter" />
     </p>
 </form>
@@ -21,28 +25,28 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Name)
+                @Html.DisplayNameFor(model => model.Pens[0].Name)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Price)
+                @Html.DisplayNameFor(model => model.Pens[0].Price)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Type)
+                @Html.DisplayNameFor(model => model.Pens[0].Type)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Colour)
+                @Html.DisplayNameFor(model => model.Pens[0].Colour)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Size)
+                @Html.DisplayNameFor(model => model.Pens[0].Size)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Erasable)
+                @Html.DisplayNameFor(model => model.Pens[0].Erasable)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+@foreach (var item in Model.Pens) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Name)

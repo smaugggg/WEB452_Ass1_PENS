@@ -20,15 +20,29 @@ namespace WEB452_Ass1_PENS.Controllers
         }
 
         // GET: Pens
-        public async Task<IActionResult> Index(string searchString)
+        public async Task<IActionResult> Index(string PenTipSize, string searchString)
         {
-            var pens = from m in _context.Pen select m;
+            IQueryable<string> sizeQuery = from m in _context.Pen
+                                           orderby m.Size
+                                           select m.Size;
 
-            if (!String.IsNullOrEmpty(searchString)) {
+            var pens = from m in _context.Pen 
+                       select m;
+
+            if (!string.IsNullOrEmpty(searchString)) {
                 pens = pens.Where(s => s.Name.Contains(searchString));
             }
 
-            return View(await pens.ToListAsync());
+            if (!string.IsNullOrEmpty(PenTipSize)) {
+                pens = pens.Where(x => x.Size == PenTipSize);
+            }
+
+            var PenTipVM = new PenTipViewModel {
+                Tips = new SelectList(await sizeQuery.Distinct().ToListAsync()),
+                Pens = await pens.ToListAsync()
+            };
+
+            return View(PenTipVM);
         }
 
         // GET: Pens/Details/5
