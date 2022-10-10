@@ -19,3 +19,15 @@
 	20221008
 0331 -  Created the scaffolded controller for my Pens class. Comitting cause it worked.
 0339 - InitialCreate/Update-Database have been run.
+
+1859 -  Welcome back for the day! Lets see what we can get done!
+2137 -  Got slightly distracted playing Overwatch 2. It's been good so far
+		Anyway. Seeded the Database with my pen offerings
+
+	20221009
+2345 -  Working on the search function.
+
+	20221010
+0005 -  Checking if the search function works.
+0006 -  Search function works!
+		Committing to Github

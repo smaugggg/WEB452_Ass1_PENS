@@ -20,9 +20,15 @@ namespace WEB452_Ass1_PENS.Controllers
         }
 
         // GET: Pens
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Pen.ToListAsync());
+            var pens = from m in _context.Pen select m;
+
+            if (!String.IsNullOrEmpty(searchString)) {
+                pens = pens.Where(s => s.Name.Contains(searchString));
+            }
+
+            return View(await pens.ToListAsync());
         }
 
         // GET: Pens/Details/5
