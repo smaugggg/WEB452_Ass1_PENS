@@ -16,5 +16,7 @@ namespace WEB452_Ass1_PENS.Models {
         public string Size { get; set; }
         public bool Erasable { get; set; }
 
+    //    public int Rating { get; set; }
+
     }
 }

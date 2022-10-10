@@ -32,18 +32,22 @@ Employees:			Steve Carell		-- Director of Pen Distribution
 						when you're very successful, your co-workers look at you differently."
 					Dwight Schrute IV	-- Pender Mifflin Head Salesmen
 						"Whenever I'm about to do something, I think 'Would an idiot do that?' And if they would, I do not do that thing."
+					Villis Phance		-- Regional Director of Sales
+						"I'm glad Michael's getting help. He has a lot of issues, and he's stupid."
 					Jim Halpent			-- Sales Representative
 						Skilled with photoshop. Loves ham and cheese. 
 					Asian Jim Halpent	-- Sales Representative
 						Skilled with photoshop. Loves ham and cheese.
+					Stanley Hudspen		-- Sales Repesentative
+						"It's like I used to tell my wife: I do not apologize unless I think I'm wrong, and if you don't like it, you can leave. I say the same thing to my current wife, and I'll say it to my next one too."
 					Pen Beesly			-- Office Administrator
 						“Kinda sounds like prison is better than Pender Mifflin”
 					Kelly Kapen			-- Customer Service Representive
 						"Who am I? I’m Kelly Kapen, the business bitch."
 					Creed Bratton		-- Quality Assurance
 						“Nobody steals from Creed Bratton and gets away with it. The last person to do this disappeared. His name: Creed Bratton.”
-					Stanley Hudspen		-- Sales Repesentative
-						"It's like I used to tell my wife: I do not apologize unless I think I'm wrong, and if you don't like it, you can leave. I say the same thing to my current wife, and I'll say it to my next one too."
+					
+
 
 
 Company Colours:

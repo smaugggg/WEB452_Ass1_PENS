@@ -35,3 +35,7 @@
 0136 -  testing the pentipsize search function
 0137 -  It works! 
 		Committing to GitHub
+0139 -  Beginning work on adding the Rating function
+		Unsure of how to tackle this... Does it need to be interactive?
+1742 -  Unsure of how to proceed with rating, going to work on the about me page. 
+		This is gonna be funny.
