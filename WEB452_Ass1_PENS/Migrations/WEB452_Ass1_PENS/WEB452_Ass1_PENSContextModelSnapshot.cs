@@ -5,10 +5,10 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WEB452_Ass1_PENS.Data;
 
-namespace WEB452_Ass1_PENS.Migrations
+namespace WEB452_Ass1_PENS.Migrations.WEB452_Ass1_PENS
 {
-    [DbContext(typeof(PenderMifflinContext))]
-    partial class PenderMifflinContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(WEB452_Ass1_PENSContext))]
+    partial class WEB452_Ass1_PENSContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {

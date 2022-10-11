@@ -44,3 +44,11 @@
 2214 -  Got images working using the ~/ file thingy to access the wwwroot folder
 		Finished up the entirety of the About Us page.
 		Committing to GitHub
+2244 -  Images added as a string to the database so it's easier to show them on the products page
+
+YET TO DO:
+	Star Rating system
+		Does it need to be interactive?
+	Design product page
+	Navigation design
+	Colour scheme adjustments. 

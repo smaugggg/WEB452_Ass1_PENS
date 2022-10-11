@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WEB452_Ass1_PENS.Data;
 
-namespace WEB452_Ass1_PENS.Migrations
+namespace WEB452_Ass1_PENS.Migrations.WEB452_Ass1_PENS
 {
-    [DbContext(typeof(PenderMifflinContext))]
-    partial class PenderMifflinContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(WEB452_Ass1_PENSContext))]
+    [Migration("20221011024108_Image")]
+    partial class Image
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
