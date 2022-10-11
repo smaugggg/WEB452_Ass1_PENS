@@ -74,7 +74,7 @@ namespace WEB452_Ass1_PENS.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Price,Type,Colour,Size,Erasable")] Pen pen)
+        public async Task<IActionResult> Create([Bind("Id,Name,Price,Type,Colour,Size,Erasable,Image")] Pen pen)
         {
             if (ModelState.IsValid)
             {
@@ -106,7 +106,7 @@ namespace WEB452_Ass1_PENS.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Price,Type,Colour,Size,Erasable")] Pen pen)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Price,Type,Colour,Size,Erasable,Image")] Pen pen)
         {
             if (id != pen.Id)
             {

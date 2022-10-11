@@ -135,7 +135,7 @@ namespace WEB452_Ass1_PENS.Models {
 
                     new Pen {
                         Name = "PMI Luxury Rollerball Silver",
-                        Price = 4.99M,
+                        Price = 125.00M,
                         Type = "Rollerball",
                         Colour = "Black",
                         Size = "Fine Tip",
@@ -144,7 +144,7 @@ namespace WEB452_Ass1_PENS.Models {
 
                     new Pen {
                         Name = "PMI Luxury Rollerball Gold",
-                        Price = 4.99M,
+                        Price = 125.00M,
                         Type = "Rollerball",
                         Colour = "Black",
                         Size = "Fine Tip",
@@ -153,7 +153,7 @@ namespace WEB452_Ass1_PENS.Models {
 
                     new Pen {
                         Name = "PMI Luxury Rollerball Black",
-                        Price = 4.99M,
+                        Price = 125.00M,
                         Type = "Rollerball",
                         Colour = "Black",
                         Size = "Fine Tip",
@@ -162,7 +162,7 @@ namespace WEB452_Ass1_PENS.Models {
 
                     new Pen {
                         Name = "PMI Refillable Fountain Pen",
-                        Price = 3.49M,
+                        Price = 64.99M,
                         Type = "Fountain",
                         Colour = "Exchangeable",
                         Size = "Fine Tip",
@@ -171,7 +171,7 @@ namespace WEB452_Ass1_PENS.Models {
 
                     new Pen {
                         Name = "PMI Refillable Fountain Pen",
-                        Price = 3.49M,
+                        Price = 64.99M,
                         Type = "Fountain",
                         Colour = "Exchangeable",
                         Size = "Medium Tip",
