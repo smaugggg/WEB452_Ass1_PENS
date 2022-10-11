@@ -39,3 +39,8 @@
 		Unsure of how to tackle this... Does it need to be interactive?
 1742 -  Unsure of how to proceed with rating, going to work on the about me page. 
 		This is gonna be funny.
+1958 -  Finished coding HTML/CSS in VSCode for my employee page
+		Everything seems to be working except my images
+2214 -  Got images working using the ~/ file thingy to access the wwwroot folder
+		Finished up the entirety of the About Us page.
+		Committing to GitHub

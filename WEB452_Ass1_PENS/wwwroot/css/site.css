@@ -70,12 +70,198 @@ body {
   line-height: 60px; /* Vertically center the text there */
 }
 
+* {
+    font-family: 'Lato', sans-serif;
+    color: #727980;
+    font-weight: 300;
+}
+
+/* ABOUT SECTION */
+.about {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .about {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 992px) {
+    .about {
+        max-width: 960px;
+    }
+}
+
+.outer-about-box {
+    position: relative;
+    height: min-content;
+    padding-right: 15px;
+    padding-left: 15px;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+}
+
+.about-title {
+    width: 100%;
+    text-align: left;
+    padding: 45px 0 30px 0;
+}
+
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 5px;
+    left: calc(50% - 25px);
+    background: #353535;
+}
+
+.about-title h1 {
+    color: #353535;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+}
+
+
+@media(max-width: 767.98px) {
+    .about-title h1 {
+        font-size: 40px;
+        letter-spacing: 3px;
+    }
+}
+
+@media(max-width: 567.98px) {
+    .about-title h1 {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+}
+
+.about-box {
+    margin-bottom: 30px;
+    max-height: 280px;
+}
+
+    .about-box .about-content {
+        width: 100%;
+        position: relative;
+        height: 245px;
+        text-align: left;
+    }
+
+        .about-box .about-content p {
+            font-size: 16px;
+            font-weight: 300;
+            padding: 20px;
+        }
+
+/* ADDRESS SECTION */
+.address {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .address {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 992px) {
+    .address {
+        max-width: 960px;
+    }
+}
+
+.outer-address-box {
+    position: relative;
+    height: min-content;
+    padding-right: 15px;
+    padding-left: 15px;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+}
+
+.find-us {
+    width: 100%;
+    text-align: left;
+    padding: 45px 0 30px 0;
+}
+
+
+    .find-us h1 {
+        color: #353535;
+        font-size: 50px;
+        letter-spacing: 5px;
+        margin-bottom: 5px;
+    }
+
+@media(max-width: 767.98px) {
+    .find-us h1 {
+        font-size: 40px;
+        letter-spacing: 3px;
+    }
+}
+
+@media(max-width: 567.98px) {
+    .find-us h1 {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+}
+
+.address-box {
+    margin-bottom: 30px;
+    max-height: 280px;
+}
+
+    .address-box .team-img {
+        position: relative;
+        clip-path: polygon(0 26%, 100% 0, 100% 100%, 0 74%);
+        width: 40%;
+        display: inline-block;
+    }
+
+        .address-box .team-img img {
+            width: 100%;
+            height: auto;
+        }
+
+    .address-box .address-content {
+        width: 59%;
+        position: relative;
+        top: -15px;
+        height: 245px;
+        display: inline-block;
+        text-align: center;
+        background: #f3f4fa;
+        transition: all .5s;
+    }
+
+    .address-box:hover .address-content {
+        background: #2A3C5F;
+    }
+
+        .address-box:hover .address-content h3 {
+            color: #EDEFE2;
+        }
+
+    .address-box .address-content h3 {
+        font-size: 25px;
+        font-weight: 300;
+        padding-top: 5%;
+    }
+
 /* EMPLOYEE PAGE */
-
-
-/**********************************/
-/***** Layout & Section Title *****/
-/**********************************/
 .employees {
     width: 100%;
     padding-right: 15px;
@@ -176,10 +362,6 @@ body {
     }
 }
 
-
-/**********************************/
-/********* Team #3 Style **********/
-/**********************************/
 .team-member {
     margin-bottom: 30px;
     height: 450px;
