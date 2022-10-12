@@ -48,7 +48,36 @@
 
 YET TO DO:
 	Star Rating system
-		Does it need to be interactive?
-	Design product page
+		Does it need to be interactive? No
+	Design product page ✓
 	Navigation design
 	Colour scheme adjustments. 
+	Filter Button (see 20221011 2109)
+
+	20221011
+2055 -  Have been working on product page in vs code, I think I have something I like
+		so I'm fiddling with it here to add all the mvc stuff
+		So far I have gotten the new search bar, and the new create product button working. 
+2056 -  Starting work on filter button
+		Intent of Filter button is to act as the dropdown for the 'pen tip size' thing I made
+		Should I add more ways to filter? That'll be a major b. We'll see how I fell about that
+2109 -  Filter button is displaying correct information, but isn't actually executing the search
+		Unsure of how to fix
+2110 -  I'm going to try to sort out my items on the page now
+2117 -  Okay I put in my @foreach and called my database names... moment of truth...
+		Please work.
+2118 -  IT WORKS!
+		Well. The images dont. But I knew I'd have to fiddle with that. 
+		But the information is displayed and all the pens are loaded!
+		For some reason the page isn't scrolling though. Gonna have to fix that. I think I know what it is
+2120 -  I was right about the scroll issue. I'm a silly billy I had html {height: 100%;}
+		There is an html override on that page for the background though cause I'm fancy
+2137 -  Can't get the images to show so I'm gonna try something that involves reseeding the database
+		Which is something I was trying to avoid but w/e
+2145 -  Got the images working. Apparently the entire folder path isn't something that the program can handle
+		And since the "~/images/product/" is the same, I just removed that from the image string :)
+		BUT the erasable checkbox is a little hard to read so I might wiggle that
+2148 -  Changed the erasable display to an if/else party for now. It looks way better
+		The font is a little light though for the name, might have to make that a little more readable
+2151 -  Much better.
+		Committing cause I made a lot of changes so far.

@@ -23,7 +23,7 @@ namespace WEB452_Ass1_PENS.Models {
                         Colour = "Black",
                         Size = "Fine Tip",
                         Erasable = false,
-                        Image = "~/images/product/fadeproof-felttip-closeup.jpg"
+                        Image = "fadeproof-felttip-closeup.jpg"
                     },
 
                     new Pen {
@@ -33,7 +33,7 @@ namespace WEB452_Ass1_PENS.Models {
                         Colour = "Black",
                         Size = "Medium Tip",
                         Erasable = false,
-                        Image = "~/images/product/fadeproof-felttip-closeup.jpg"
+                        Image = "fadeproof-felttip-closeup.jpg"
                     },
 
                     new Pen {
@@ -43,7 +43,7 @@ namespace WEB452_Ass1_PENS.Models {
                         Colour = "Black",
                         Size = "Heavy Tip",
                         Erasable = false,
-                        Image = "~/images/product/fadeproof-felttip-closeup.jpg"
+                        Image = "fadeproof-felttip-closeup.jpg"
                     },
 
                     new Pen {
@@ -53,7 +53,7 @@ namespace WEB452_Ass1_PENS.Models {
                         Colour = "Red",
                         Size = "Fine Tip",
                         Erasable = false,
-                        Image = "~/images/product/fadeproof-felttip-red.jpg"
+                        Image = "fadeproof-felttip-red.jpg"
                     },
 
                     new Pen {
@@ -63,7 +63,7 @@ namespace WEB452_Ass1_PENS.Models {
                         Colour = "Red",
                         Size = "Medium Tip",
                         Erasable = false,
-                        Image = "~/images/product/fadeproof-felttip-red.jpg"
+                        Image = "fadeproof-felttip-red.jpg"
                     },
 
                     new Pen {
@@ -73,7 +73,7 @@ namespace WEB452_Ass1_PENS.Models {
                         Colour = "Red",
                         Size = "Heavy Tip",
                         Erasable = false,
-                        Image = "~/images/product/fadeproof-felttip-red.jpg"
+                        Image = "fadeproof-felttip-red.jpg"
                     },
 
                     new Pen {
@@ -83,7 +83,7 @@ namespace WEB452_Ass1_PENS.Models {
                         Colour = "Black",
                         Size = "Medium Tip",
                         Erasable = false,
-                        Image = "~/images/product/ballpoint.jpg"
+                        Image = "ballpoint.jpg"
                     },
 
                     new Pen {
@@ -93,7 +93,7 @@ namespace WEB452_Ass1_PENS.Models {
                         Colour = "Black",
                         Size = "Medium Tip",
                         Erasable = true,
-                        Image = "~/images/product/ballpoint.jpg"
+                        Image = "ballpoint.jpg"
                     },
 
                     new Pen {
@@ -103,7 +103,7 @@ namespace WEB452_Ass1_PENS.Models {
                         Colour = "Blue",
                         Size = "Medium Tip",
                         Erasable = false,
-                        Image = "~/images/product/ballpoint.jpg"
+                        Image = "ballpoint.jpg"
                     },
 
                     new Pen {
@@ -113,7 +113,7 @@ namespace WEB452_Ass1_PENS.Models {
                         Colour = "Blue",
                         Size = "Medium Tip",
                         Erasable = true,
-                        Image = "~/images/product/ballpoint.jpg"
+                        Image = "ballpoint.jpg"
                     },
 
                     new Pen {
@@ -123,7 +123,7 @@ namespace WEB452_Ass1_PENS.Models {
                         Colour = "Red",
                         Size = "Medium Tip",
                         Erasable = false,
-                        Image = "~/images/product/ballpoint.jpg"
+                        Image = "ballpoint.jpg"
                     },
 
                     new Pen {
@@ -133,7 +133,7 @@ namespace WEB452_Ass1_PENS.Models {
                         Colour = "Red",
                         Size = "Medium Tip",
                         Erasable = true,
-                        Image = "~/images/product/ballpoint.jpg"
+                        Image = "ballpoint.jpg"
                     },
 
                     new Pen {
@@ -143,7 +143,7 @@ namespace WEB452_Ass1_PENS.Models {
                         Colour = "Red",
                         Size = "Medium Tip",
                         Erasable = false,
-                        Image = "~/images/product/ballpoint.jpg"
+                        Image = "ballpoint.jpg"
                     },
 
                     new Pen {
@@ -153,7 +153,7 @@ namespace WEB452_Ass1_PENS.Models {
                         Colour = "Black",
                         Size = "Fine Tip",
                         Erasable = false,
-                        Image = "~/images/product/rollerball-silver.jpg"
+                        Image = "rollerball-silver.jpg"
                     },
 
                     new Pen {
@@ -163,7 +163,7 @@ namespace WEB452_Ass1_PENS.Models {
                         Colour = "Black",
                         Size = "Fine Tip",
                         Erasable = false,
-                        Image = "~/images/product/rollerball-gold.jpg"
+                        Image = "rollerball-gold.jpg"
                     },
 
                     new Pen {
@@ -173,7 +173,7 @@ namespace WEB452_Ass1_PENS.Models {
                         Colour = "Black",
                         Size = "Fine Tip",
                         Erasable = false,
-                        Image = "~/images/product/rollerball-black.jpg"
+                        Image = "rollerball-black.jpg"
                     },
 
                     new Pen {
@@ -183,7 +183,7 @@ namespace WEB452_Ass1_PENS.Models {
                         Colour = "Exchangeable",
                         Size = "Fine Tip",
                         Erasable = false,
-                        Image = "~/images/product/fountainpen.jpg"
+                        Image = "fountainpen.jpg"
                     },
 
                     new Pen {
@@ -193,7 +193,7 @@ namespace WEB452_Ass1_PENS.Models {
                         Colour = "Exchangeable",
                         Size = "Medium Tip",
                         Erasable = false,
-                        Image = "~/images/product/fountainpen.jpg"
+                        Image = "fountainpen.jpg"
                     }
 
 

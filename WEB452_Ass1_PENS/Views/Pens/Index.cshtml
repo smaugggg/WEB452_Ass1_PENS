@@ -4,80 +4,91 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<style>
+    html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+    body {
+        background-color: #1a273f;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+</style>
 
-<form asp-controller="Pens" asp-action="Index">
-    <p>
-        <select asp-for="PenTipSize" asp-items="Model.Tips">
-            <option value="">All</option>
-        </select>
+<div class="products-container">
+    <div class="products-content">
+        <div class="products-content-header">
+            <h1 class="products-content-headerText">Shop our Pens</h1>
 
-        Name: <input type="text" name="SearchString" />
-        <input type="submit" value="Filter" />
-    </p>
-</form>
+            <!-- CREATE NEW BUTTON GOES HERE -->
+            <button class="products-content-headerButton"> <a asp-action="Create">Add New Pen</a></button>
+        </div>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Pens[0].Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Pens[0].Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Pens[0].Type)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Pens[0].Colour)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Pens[0].Size)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Pens[0].Erasable)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Pens[0].Image)
-            </th>
-                        <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model.Pens) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Type)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Colour)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Size)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Erasable)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Image)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+        <div class="products-content-actions">
+            <!-- SEARCH BAR -->
+            <form class="searchwhatever" asp-controller="Pens" asp-action="Index">
+                <input class="search-bar" placeholder="Search by Product Name" type="text" name="SearchString">
+            </form>
+
+            <!-- FILTER BUTTON FOR PENTIPSIZE, POSSIBLY COLOUR LATER ON -->
+            <div class="products-content-actions-wrapper">
+                <div class="filter-button-wrapper">
+                    <button class="action-button filter jsFilter"><span>Filter</span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-filter"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3" /></svg></button>
+                    <div class="filter-menu">
+                        <label>Pen Tip Size:</label>
+                        <select asp-for="PenTipSize" asp-items="Model.Tips">
+                            <option value="">All</option>
+                        </select>
+                        <div class="filter-menu-buttons">
+                            <button class="filter-button reset">
+                                Reset
+                            </button>
+                            <button class="filter-button apply">
+                                <a asp-controller="Pens" asp-action="Index">Apply</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Products start here -->
+        <div class="products-area-wrapper gridView">
+
+            <!-- FOR EACH PEN DO SOMETHING WITH THIS -->
+            @foreach (var item in Model.Pens) {
+            <div class="products-row">
+                <div class="product-cell image">
+                    <img src="~/images/product/@item.Image" alt="product">
+                    <span>@Html.DisplayFor(modelItem => item.Name)</span>
+                </div>
+                <div class="product-cell type"><span class="cell-label">Type:</span>@Html.DisplayFor(modelItem => item.Type)</div>
+                <div class="product-cell colour"><span class="cell-label">Colour:</span>@Html.DisplayFor(modelItem => item.Colour)</div>
+                <div class="product-cell size"><span class="cell-label">Size:</span>@Html.DisplayFor(modelItem => item.Size)</div>
+                <div class="product-cell price"><span class="cell-label">Price:</span>@Html.DisplayFor(modelItem => item.Price)</div>
+                @if (@item.Erasable) {
+                    <div class="product-cell erasable"><span class="cell-label">Erasable:</span>Yes</div>
+                } else {
+                    <div class="product-cell erasable"><span class="cell-label">Erasable:</span>No</div>
+                }
+
+            </div>
+
+            }
+
+        </div>
+        <!-- PRODUCT GRID ENDS -->
+    </div>
+</div>
+
+
+
+@*<a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>*@
+
+
