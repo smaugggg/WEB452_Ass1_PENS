@@ -11,40 +11,15 @@
 </head>
 <body>
     <div class="header">
-        <h1 class="companylogo">Pender Mifflin, Ink.</h1>
-        <div class="header-menu">
-            <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-            <a asp-area="" asp-controller="PenderMifflin" asp-action="Index">About Us</a>
-            <a asp-area="" asp-controller="Pens" asp-action="Index">Products</a>
-        </div>
-        <div class="header-spacemaker"></div>
-    </div>
-
-
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-controller="Home" asp-action="Index">Pender Mifflin, Ink.</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="PenderMifflin" asp-action="Index">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Pens" asp-action="Index">Products</a>
-                        </li>
-                    </ul>
-                </div>
+            <a asp-area="" asp-controller="Home" asp-action="Index"><img class="logo" src="~/images/logo.png"></a>
+            <div class="header-menu">
+                <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                <a asp-area="" asp-controller="PenderMifflin" asp-action="Index">About Us</a>
+                <a asp-area="" asp-controller="Pens" asp-action="Index">Products</a>
             </div>
-        </nav>
-    </header>
+            <div class="header-spacemaker"></div>
+</div>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

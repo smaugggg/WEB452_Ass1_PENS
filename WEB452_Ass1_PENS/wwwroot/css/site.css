@@ -975,3 +975,63 @@ html {
 
 ------------------------------- */
 
+
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 5%;
+    width: 100%;
+    white-space: nowrap;
+    flex-shrink: 0;
+    font-weight: 600;
+    font-size: 15px;
+    border-bottom: 1px solid #2c6268;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #fbfcf5;
+    z-index: 6;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    color: #2c2d2a;
+}
+
+.header .logo {
+    position: relative;
+    width: 150px;
+    padding-left: 20%;
+}
+
+.header-menu {
+    display: flex;
+    align-content: center;
+    margin-left: auto;
+}
+
+    .header-menu a {
+        background-color: #243657;
+        color: #EDEFE2;
+        font-size: 24px;
+        line-height: 36px;
+        border: none;
+        border-radius: 4px;
+        height: 32px;
+        padding: 0 16px;
+    }
+
+        .header-menu a:hover {
+            background-color: #4BA8B2;
+            text-decoration: none;
+        }
+
+.header-menu a:not(:first-child) {
+    margin-left: 30px;
+}
+
+.header-spacemaker {
+    width: 35%;
+    margin-left: auto;
+    display: flex;
+}

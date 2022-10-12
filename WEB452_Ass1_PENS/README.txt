@@ -84,10 +84,11 @@
 		to have the whole thing in 'dark mode' cause most companies don't do that.
 		So basically I'm fighting with my aesthetic rn lol
 2305 -  Artfully editted the Dunder Mifflin Logo in paint for my header
+2329 -  Header done
 		
 
 YET TO DO:
 	Design product page ✓
-	Navigation design 
+	Navigation design ✓
 	Colour scheme adjustments. ✓
 	Filter Button (see 20221011 2109)
