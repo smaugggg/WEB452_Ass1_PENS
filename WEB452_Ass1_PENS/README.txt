@@ -83,12 +83,11 @@
 		The product page is very dark compared to the rest of it but I don't know if I want	
 		to have the whole thing in 'dark mode' cause most companies don't do that.
 		So basically I'm fighting with my aesthetic rn lol
+2305 -  Artfully editted the Dunder Mifflin Logo in paint for my header
 		
 
 YET TO DO:
-	Star Rating system
-		Does it need to be interactive? No
 	Design product page ✓
-	Navigation design
-	Colour scheme adjustments. 
+	Navigation design 
+	Colour scheme adjustments. ✓
 	Filter Button (see 20221011 2109)
