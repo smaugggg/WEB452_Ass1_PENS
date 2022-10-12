@@ -46,8 +46,8 @@
                             <button class="filter-button reset">
                                 Reset
                             </button>
-                            <button class="filter-button apply">
-                                <a asp-controller="Pens" asp-action="Index">Apply</a>
+                            <button class="filter-button apply" asp-controller="Pens" asp-action="Index">
+                                Apply
                             </button>
                         </div>
                     </div>
@@ -60,10 +60,15 @@
         <div class="products-area-wrapper gridView">
 
             <!-- FOR EACH PEN DO SOMETHING WITH THIS -->
-            @foreach (var item in Model.Pens) {
+            @foreach (var item in Model.Pens) { 
             <div class="products-row">
                 <div class="product-cell image">
                     <img src="~/images/product/@item.Image" alt="product">
+                    <div class="crud-elements">
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> <br />
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a><br />
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </div>
                     <span>@Html.DisplayFor(modelItem => item.Name)</span>
                 </div>
                 <div class="product-cell type"><span class="cell-label">Type:</span>@Html.DisplayFor(modelItem => item.Type)</div>

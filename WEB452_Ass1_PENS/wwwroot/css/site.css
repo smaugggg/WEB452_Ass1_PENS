@@ -563,6 +563,7 @@ html {
     flex-direction: column;
 }
 
+
 .products-content-header {
     display: flex;
     align-items: center;
@@ -572,9 +573,10 @@ html {
 
 .products-content-headerText {
     color: #EDEFE2;
-    font-size: 24px;
+    font-size: 42px;
+    letter-spacing: 5px;
     line-height: 32px;
-    margin: 0;
+    margin-bottom: 5px;
 }
 
 .products-content-headerButton {
@@ -897,4 +899,72 @@ html {
 .gridView .cell-label {
     opacity: 1;
     font-weight: 300;
+}
+
+.general-Button {
+    background-color: #4BA8B2;
+    color: #EDEFE2;
+    font-size: 14px;
+    line-height: 24px;
+    border: none;
+    border-radius: 4px;
+    height: 32px;
+    padding: 0 16px;
+}
+
+    .general-Button a {
+        color: #EDEFE2;
+        text-decoration: none;
+    }
+
+    .general-Button:hover {
+        background-color: #4BA8B2;
+        text-decoration: none;
+    }
+
+/* CRUD HOVER ELEMENTS FOR PRODUCT PAGE */
+.products-row .crud-elements {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #212f49da;
+    transition: all .3s;
+    font-size: 0;
+    z-index: 1;
+    opacity: 0;
+}
+
+.products-row:hover .crud-elements {
+    opacity: 1;
+}
+
+.products-row:hover {
+    opacity: 0.7;
+}
+
+.products-row .crud-elements a {
+    background-color: #4BA8B2;
+    color: #EDEFE2;
+    font-size: 14px;
+    line-height: 24px;
+    border: none;
+    border-radius: 4px;
+    height: 32px;
+    padding: 0 16px;
+}
+
+.products-row:hover .crud-elements a {
+    margin-top: 0;
+}
+
+.products-row .crud-elements a:hover {
+    color: #EDEFE2;
+    background: #2c6268;
+    text-decoration: none;
 }

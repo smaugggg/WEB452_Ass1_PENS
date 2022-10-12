@@ -46,13 +46,7 @@
 		Committing to GitHub
 2244 -  Images added as a string to the database so it's easier to show them on the products page
 
-YET TO DO:
-	Star Rating system
-		Does it need to be interactive? No
-	Design product page ✓
-	Navigation design
-	Colour scheme adjustments. 
-	Filter Button (see 20221011 2109)
+
 
 	20221011
 2055 -  Have been working on product page in vs code, I think I have something I like
@@ -81,3 +75,20 @@ YET TO DO:
 		The font is a little light though for the name, might have to make that a little more readable
 2151 -  Much better.
 		Committing cause I made a lot of changes so far.
+2212 -  Create Page made to match the product page. 
+		Doing the other CRUD pages in the same way.
+2222 -  CRUD files editted for colour scheme matching. 
+		Need to add the links to edit/details/delete etc to main products page
+2238 -  CRUD hover is working now. Looking really put together!
+		The product page is very dark compared to the rest of it but I don't know if I want	
+		to have the whole thing in 'dark mode' cause most companies don't do that.
+		So basically I'm fighting with my aesthetic rn lol
+		
+
+YET TO DO:
+	Star Rating system
+		Does it need to be interactive? No
+	Design product page ✓
+	Navigation design
+	Colour scheme adjustments. 
+	Filter Button (see 20221011 2109)
