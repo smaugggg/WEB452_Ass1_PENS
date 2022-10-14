@@ -85,10 +85,14 @@
 		So basically I'm fighting with my aesthetic rn lol
 2305 -  Artfully editted the Dunder Mifflin Logo in paint for my header
 2329 -  Header done
-		
 
-YET TO DO:
-	Design product page ✓
-	Navigation design ✓
-	Colour scheme adjustments. ✓
-	Filter Button (see 20221011 2109)
+	20221014
+1359 -  I have literally one last idea to make this filter button work, and if it doesn't then idk what to do. 
+		The concept is to extend the form itself to take up the whole container. Lets test it.
+1403 -  It didn't work, and broke more than it helped. So I'm genuinely not sure what to do for that  filter button. 
+		In my brain as well, I would have liked to have 2 different selectors for functionality/aesthetic of the page
+		But maybe this is just beyond me right now. 
+
+	FINAL THOUGHTS
+Overall I'm very happy with the look of the page. I think it's really cool and I had a lot of fun making
+it work. This project helped me to understand the concept of these ASP apps a lot better. 
